@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <div class="circle"></div>
+        <div class="triangle"></div>
+    </div>
+    <div class="container">
+        <h1>Admin Dashboard</h1>
+        <button id="connectWallet" class="btn-primary">Connect Wallet</button>
+        <!-- File Upload Section -->
+        <div class="upload-section">
+            <h2>Upload Document</h2>
+            <input type="file" id="fileInput" class="input">
+            <button id="uploadButton" class="btn-primary">Upload</button>
+        </div>
+        <button id="generateMagicKey" class="btn-primary">Generate Magic Key</button>
+        <button id="saveMagicKey" class="btn-primary">Save Magic Key</button>
+        <button id="backToLogin" class="btn-back">Back to Login</button>
+    </div>
+    <script>
+        document.getElementById('backToLogin').addEventListener('click', () => {
+            window.location.href = 'index.html';
+        });
+
+        document.getElementById('uploadButton').addEventListener('click', () => {
+            const file = document.getElementById('fileInput').files[0];
+            if (!file) {
+                alert('Please select a file to upload!');
+                return;
+            }
+            alert(`File "${file.name}" uploaded successfully.`);
+        });
+    </script>
+</body>
+</html>
