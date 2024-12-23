@@ -22,6 +22,16 @@
 
 ---
 
+## Video Demo
+
+Watch the demo video of **Travel Pass** to see it in action:
+
+[![Travel Pass Demo](https://img.youtube.com/vi/1eIbfyAgIxzzAJbtXDXtk_hIfp8-YsLap/0.jpg)](https://drive.google.com/file/d/1eIbfyAgIxzzAJbtXDXtk_hIfp8-YsLap/view)
+
+Click the image to watch the full demo video.
+
+---
+
 ## How It Works
 
 1. **Admin Access**: 
@@ -42,6 +52,7 @@
 
 Check out the live project here: [Travel Pass](https://nikhilsirvi9.github.io/TravelPass/)
 
+---
 
 ## Getting Started
 
