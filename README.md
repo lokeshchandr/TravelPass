@@ -26,7 +26,7 @@
 
 Watch the demo video of **Travel Pass** to see it in action:
 
-[![Travel Pass Demo](https://drive.google.com/file/d/1eIbfyAgIxzzAJbtXDXtk_hIfp8-YsLap/view)
+[Travel Pass Demo](https://drive.google.com/file/d/1eIbfyAgIxzzAJbtXDXtk_hIfp8-YsLap/view)
 
 ---
 
